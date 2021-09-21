@@ -1,0 +1,29 @@
+{
+  "name": "@jpweeks/sprite-loader",
+  "version": "0.1.0",
+  "description": "A Webpack loader for sprite assets. Automatically bundles all referenced files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jpweeks/sprite-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/jpweeks/sprite-loader/issues"
+  },
+  "homepage": "https://github.com/jpweeks/sprite-loader",
+  "keywords": [
+    "sprite",
+    "texture packer",
+    "webgl",
+    "webpack",
+    "loader"
+  ],
+  "author": "Jay Weeks <jay.patrick.weeks@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.2.3"
+  }
+}
