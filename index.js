@@ -12,6 +12,8 @@ module.exports = function (content) {
   const emitLoaderData = emitData.bind(this, options, context)
 
   let json = JSON.parse(content)
+  delete json.meta
+
   let images = getImageAssets(json)
   let dataPath = emitLoaderData(json)
 
