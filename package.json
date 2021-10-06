@@ -1,6 +1,6 @@
 {
   "name": "@jpweeks/sprite-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Webpack loader for sprite assets. Automatically bundles all referenced files.",
   "main": "index.js",
   "scripts": {
